@@ -1,0 +1,17 @@
+﻿# Hugo generated files
+/public/
+/resources/_gen/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Local env
+.env
+.env.*
+
+# Node/npm cache if used for tooling
+node_modules/
+.hugo_build.lock

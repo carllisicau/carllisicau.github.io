@@ -1,0 +1,76 @@
+﻿baseURL: "https://carllisicau.github.io/"
+languageCode: "zh-cn"
+defaultContentLanguage: "zh-cn"
+title: "Carl 的随笔"
+theme: "PaperMod"
+enableRobotsTXT: true
+
+pagination:
+  pagerSize: 10
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+taxonomies:
+  tag: tags
+  category: categories
+
+permalinks:
+  posts: "/:year/:month/:slug/"
+
+menu:
+  main:
+    - identifier: home
+      name: 首页
+      url: /
+      weight: 10
+    - identifier: archives
+      name: 归档
+      url: /archives/
+      weight: 20
+    - identifier: tags
+      name: 标签
+      url: /tags/
+      weight: 30
+    - identifier: about
+      name: 关于
+      url: /about/
+      weight: 40
+
+params:
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowToc: true
+  TocOpen: false
+  comments: false
+  description: "一个记录技术与生活的中文博客"
+  keywords:
+    - 博客
+    - 技术
+    - 生活
+  author: "carl li"
+  homeInfoParams:
+    Title: "Carl 的随笔"
+    Content: "在这里记录学习、思考与实践。"
+
+markup:
+  highlight:
+    noClasses: false
+    lineNos: true
+    style: github
+  tableOfContents:
+    startLevel: 2
+    endLevel: 4
+    ordered: false
+
+sitemap:
+  changefreq: weekly
+  filename: sitemap.xml
+  priority: 0.5
