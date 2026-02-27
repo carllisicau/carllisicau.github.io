@@ -1,7 +1,7 @@
 ﻿---
 title: "Post2"
 date: 2026-02-27T14:56:58+08:00
-draft: true
+draft: false
 tags: []
 categories: []
 summary: ""
